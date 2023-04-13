@@ -5,10 +5,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
 
-	<title>About Us | Financial Advising</title>
+	<title>Team | FinancialLodge</title>
 
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<!--[if lt IE 9]>
 		<script src="js/ie-support/html5.js"></script>
 	<![endif]-->
@@ -36,14 +37,14 @@
 			</div>
 		</header> <!-- End of .site-header -->
 
-		<div class="fullwidth-block primary-color">
+        <div class="fullwidth-block primary-color">
             <div class="container ">
 
-                <h2 style="text-align:center">Our Team</h2>
-                <p style="text-align: center;">Get to know the innovative team driving FinancialLodge forward. With years of tech industry experience and a passion for growth and impact in Africa, our diverse team of experts brings a range of skills to every project we undertake. From investment and advisory services to technical expertise, discover how our team can help drive your business to new heights. </p>
+                <h2 data-aos="fade-up" style="text-align:center">Our Team</h2>
+                <p data-aos="fade-up" style="text-align: center;">Get to know the innovative team driving FinancialLodge forward. With years of tech industry experience and a passion for growth and impact in Africa, our diverse team of experts brings a range of skills to every project we undertake. From investment and advisory services to technical expertise, discover how our team can help drive your business to new heights. </p>
                 <br>
                 <div class="row">
-                  <div class="column">
+                  <div class="column" data-aos="fade-up">
                     <div class="card">
                       <img src="/images/dummy/Takuya-Azaka-1.jpg" alt="Jane" style="width:100%">
                       <div class="containerr">
@@ -56,7 +57,8 @@
                     </div>
                   </div>
                 
-                  <div class="column">
+                  <div class="column" data-aos="fade-up" data-aos-delay="50"
+                  data-aos-duration="1000">
                     <div class="card">
                       <img src="/images/segun-1.jpg" alt="segun" style="width:100%">
                       <div class="containerr">
@@ -82,7 +84,8 @@
                     </div>
                   </div> -->
                 
-                  <div class="column">
+                  <div class="column" data-aos="fade-up" data-aos-delay="100"
+                  data-aos-duration="2000">
                     <div class="card">
                       <img src="/images/Chuba-Okanume.jpg" alt="John" style="width:100%">
                       <div class="containerr">
@@ -100,7 +103,6 @@
 
             </div>
         </div>
-
 
 
 		<footer class="site-footer">
@@ -148,6 +150,10 @@
 
 	</div> <!-- End of #site-content -->
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+	  AOS.init();
+	</script>
 	<script src="js/plugins/plugins.js"></script>
 	<script src="js/app.js"></script>
 </body>
